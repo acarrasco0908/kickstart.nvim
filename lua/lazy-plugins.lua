@@ -23,6 +23,8 @@ require('lazy').setup({
   require 'custom.plugins.treesitter',
 
   require 'custom.plugins.neo-tree',
+
+  require 'custom.plugins.neogit',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
